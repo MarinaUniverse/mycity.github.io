@@ -91,17 +91,23 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 .misto__img img {
     width: 450px;
+    max-width: 100%;
+    /* overflow: hidden;
+    height: auto; */
 }
 .people__img {
     text-align: center;
+
 }
 
 .people__img img {
     border-radius: 50%;
     border: 3px solid rgb(58, 58, 58);
+    max-width: 100%;
 }
 p {
     font-size: 12px;
@@ -128,4 +134,12 @@ color: #fff;
 .footer span a {
     font-weight: 700;
     color: #fff;
+}
+
+@media(max-width:1000px){
+    .misto__img img {
+    overflow: hidden;
+    height: auto;
+    padding: 10px;
+    }
 }
