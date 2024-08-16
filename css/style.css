@@ -33,6 +33,7 @@ ul, li {
     background-size: cover;
     background-position: center;
 }
+
 .content.content-mp {
     background-image: none;
     background-color: #ccc;
@@ -142,4 +143,14 @@ color: #fff;
     height: auto;
     padding: 10px;
     }
+    .header__inner {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header {
+        height: 110px;
+    }
 }
+
